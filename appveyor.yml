@@ -1,0 +1,19 @@
+image: Ubuntu
+
+environment:
+  nodejs_version: "14"
+
+build: off
+
+install:
+  - nvm install $nodejs_version
+  - nvm use $nodejs_version
+  - node -v
+  - npm -v
+  - npm install
+
+build_script:
+  - npm run build
+
+test_script:
+  - npm test

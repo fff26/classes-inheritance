@@ -1,10 +1,9 @@
-// src/js/index.js
-import Bowman from './Bowman';
-import Swordsman from './Swordsman';
-import Magician from './Magician';
-import Daemon from './Daemon';
-import Undead from './Undead';
-import Zombie from './Zombie';
+import Bowman from './Bowman.js';
+import Swordsman from './Swordsman.js';
+import Magician from './Magician.js';
+import Daemon from './Daemon.js';
+import Undead from './Undead.js';
+import Zombie from './Zombie.js';
 
 export {
   Bowman,
